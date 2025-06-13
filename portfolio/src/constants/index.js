@@ -38,7 +38,7 @@ const navLinks = [
   const counterItems = [
     { value: 4, suffix: "+", label: "Years of Experience" },
     { value: 10, suffix: "+", label: "Completed Projects" },
-    { value: 60, suffix: "+", label: "Commits Pushed" },
+    { value: 85, suffix: "+", label: "Commits Pushed" },
     { value: 20, suffix: "+", label: "Certificates Earned" },
   ];
   
