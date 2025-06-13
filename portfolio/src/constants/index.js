@@ -230,20 +230,25 @@ const navLinks = [
   
   const socialImgs = [
     {
-      name: "insta",
-      imgPath: "/images/insta.png",
+      name: "email",
+      imgPath: "/images/21.png",
+      link:"mailto:yokeshramana21@gmail.com"
     },
     {
-      name: "fb",
-      imgPath: "/images/fb.png",
+      name: "github",
+      imgPath: "/images/22.png",
+      link:"https://github.com/Yokesh-Dev"
     },
     {
-      name: "x",
-      imgPath: "/images/x.png",
+      name: "HackerRank",
+      imgPath: "/images/24.png",
+      link:"https://www.hackerrank.com/profile/yokeshramana21"
     },
     {
       name: "linkedin",
-      imgPath: "/images/linkedin.png",
+      imgPath: "/images/23.png",
+      link:"https://www.linkedin.com/in/yokeshramana/"
+      
     },
   ];
   

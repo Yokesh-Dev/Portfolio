@@ -5,12 +5,19 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <p>Visit My Blog</p>
+          <p ><a href="" target="_blank" rel="noopener noreferrer">
+              Visit My Blog
+            </a></p>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
             <div key={index} className="icon">
-              <img src={socialImg.imgPath} alt="social icon" />
+                  <a href={socialImg.link} target="_blank" rel="noopener noreferrer">
+        <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} />
+      </a>
+
+
+              
             </div>
           ))}
         </div>
@@ -25,3 +32,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+//<img src={socialImg.imgPath} alt="social icon" />
