@@ -472,3 +472,18 @@ section {
 .card:hover::before {
   opacity: 1;
 }
+
+/* TITLE ANIMATION WEB DEVLOPER */
+@keyframes glowFade {
+  0% { opacity: 0.3; transform: scale(1); text-shadow: 0 0 5px #9f9fa3; }
+  50% { opacity: 1; transform: scale(1.1); text-shadow: 0 0 10px #9f9fa3, 0 0 20px #9f9fa3; }
+  100% { opacity: 0.3; transform: scale(1); text-shadow: 0 0 5px #9f9fa3; }
+}
+
+.animated-word {
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  color: #9f9fa3;
+  animation: glowFade 2s infinite alternate;
+}

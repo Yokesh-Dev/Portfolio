@@ -46,7 +46,8 @@ import AnimatedCounter from "../components/AnimatedCounter";
                         <h1>into Real projects</h1>
                         <h1>that Deliver results</h1>
                     </div>
-                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none-none:">Hi , I'm Yokesh , a Web Developer based in India passionate in Programming.</p>
+                    <p className= " text-white-50 md:text-xl relative z-10 pointer-events-none ">Hi , I'm Yokesh , a <span 
+                     className="animated-word">Web Developer</span>  based in India passionate in Programming.</p>
                     < Button 
                     className="md:w-80 md:h-16 w-60 h-12"
                     id="button"
@@ -61,6 +62,8 @@ import AnimatedCounter from "../components/AnimatedCounter";
                 </div>
             </figure>
         </div>
+
+        
 
         < AnimatedCounter />
         </section>
