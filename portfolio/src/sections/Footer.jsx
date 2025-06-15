@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <p ><a href="" target="_blank" rel="noopener noreferrer">
+          <p ><a href="https://blog-yokesh-devs-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
               Visit My Blog
             </a></p>
         </div>
