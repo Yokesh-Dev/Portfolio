@@ -14,6 +14,13 @@ const navLinks = [
     {
       name: "Testimonials",
       link: "#testimonials",
+      
+    },
+
+    {
+      name: "Contact",
+      link: "#contact",
+      
     },
   ];
   
@@ -29,46 +36,23 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 4, suffix: "+", label: "Years of Experience" },
+    { value: 10, suffix: "+", label: "Completed Projects" },
+    { value: 85, suffix: "+", label: "Commits Pushed" },
+    { value: 20, suffix: "+", label: "Certificates Earned" },
   ];
   
   const logoIconsList = [
     {
-      imgPath: "/images/logos/company-logo-1.png",
+      imgPath: "/images/L1.png",
     },
     {
-      imgPath: "/images/logos/company-logo-2.png",
+      imgPath: "/images/L2.png",
     },
     {
-      imgPath: "/images/logos/company-logo-3.png",
+      imgPath: "/images/L3.png",
     },
-    {
-      imgPath: "/images/logos/company-logo-4.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-5.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-6.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-7.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-8.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-9.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-10.png",
-    },
-    {
-      imgPath: "/images/logos/company-logo-11.png",
-    },
+
   ];
   
   const abilities = [
@@ -147,39 +131,39 @@ const navLinks = [
   
   const expCards = [
     {
-      review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/exp1.png",
-      logoPath: "/images/logo1.png",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
+      review: " Yokesh’s contributions to General Electric Aerospace's web applications have been outstanding. He approaches challenges with a problem-solving mindset. ",
+      imgPath: "/images/satisfaction.png",
+      logoPath: "/images/Timeline-logo.png",
+      title: "Node js Developer",
+      date: "January 2025 - Present",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
+        "Developed and maintained scalable web applications using Node.js and Express.js.",
+        "Integrated Generative AI models to automate content summarization using strategic prompts, improving efficiency & readability.",
+        "Refactored  codebase into a single application, improving maintainability , scalability & Migrated from plain JavaScript to a modern framework to enhance performance &  efficiency.",
       ],
     },
     {
-      review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/images/exp2.png",
-      logoPath: "/images/logo2.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      review: "Yokesh brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences in British Telecom.",
+      imgPath: "/images/satisfaction.png",
+      logoPath: "/images/Timeline-logo.png",
+      title: "Front End Developer",
+      date: "January 2022 - December 2024",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "Developed responsive and visually appealing web pages using HTML, CSS, and JavaScript.",
+        "Ensured websites load quickly and efficiently across different devices and browsers",
+        "Utilized libraries like React.js, Angular, or Vue.js to enhance interactivity and efficiency",
       ],
     },
     {
-      review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-      imgPath: "/images/exp3.png",
-      logoPath: "/images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
+      review: "Yokesh’s work on Designing  brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      imgPath: "/images/satisfaction.png",
+      logoPath: "/images/Timeline-logo.png",
+      title: "UX/UI Designer",
+      date: "July 2021 - January 2022",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
+        "Developed wireframes, mockups, and interactive prototypes using tools like Figma, Adobe XD, or Sketch to visualize design concepts.",
+        "Created aesthetically pleasing designs that align with brand identity.",
+        "Worked closely with developers, stakeholders, and product teams to refine designs, conduct usability testing, and improve user experience.",
       ],
     },
   ];
@@ -204,62 +188,67 @@ const navLinks = [
       name: "Esther Howard",
       mentions: "@estherhoward",
       review:
-        "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+        "I can’t say enough good things about Yokesh. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
       imgPath: "/images/client1.png",
     },
     {
       name: "Wade Warren",
       mentions: "@wadewarren",
       review:
-        "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+        "Working with Yokesh was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
       imgPath: "/images/client3.png",
     },
     {
       name: "Guy Hawkins",
       mentions: "@guyhawkins",
       review:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with Yokesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yokesh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yokesh is the ideal partner.",
       imgPath: "/images/client2.png",
     },
     {
       name: "Marvin McKinney",
       mentions: "@marvinmckinney",
       review:
-        "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+        "Yokesh was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
       imgPath: "/images/client5.png",
     },
     {
       name: "Floyd Miles",
       mentions: "@floydmiles",
       review:
-        "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+        "Yokesh’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
       imgPath: "/images/client4.png",
     },
     {
       name: "Albert Flores",
       mentions: "@albertflores",
       review:
-        "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+        "Yokesh was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
       imgPath: "/images/client6.png",
     },
   ];
   
   const socialImgs = [
     {
-      name: "insta",
-      imgPath: "/images/insta.png",
+      name: "email",
+      imgPath: "/images/21.png",
+      link:"mailto:yokeshramana21@gmail.com"
     },
     {
-      name: "fb",
-      imgPath: "/images/fb.png",
+      name: "github",
+      imgPath: "/images/22.png",
+      link:"https://github.com/Yokesh-Dev"
     },
     {
-      name: "x",
-      imgPath: "/images/x.png",
+      name: "HackerRank",
+      imgPath: "/images/24.png",
+      link:"https://www.hackerrank.com/profile/yokeshramana21"
     },
     {
       name: "linkedin",
-      imgPath: "/images/linkedin.png",
+      imgPath: "/images/23.png",
+      link:"https://www.linkedin.com/in/yokeshramana/"
+      
     },
   ];
   

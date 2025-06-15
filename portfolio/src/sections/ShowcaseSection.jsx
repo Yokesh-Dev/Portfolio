@@ -51,12 +51,12 @@ useGSAP (() => {
                 {/* LEFT */}
                 <div className="first-project-wrapper" ref={project1Ref} >
                     <div className="image-wrapper">
-                        <img src="/images/project1.png" alt="Project1" />
+                        <img src="/images/P1.png" alt="Project1" />
                     </div>
                     <div className="text-content">
-                        <h2>On Demand Rides made simple and Powerfull Ride</h2>
+                        <h2>Nike Website Clone</h2>
                         <p className="text-white-50 md:text-xl">
-                            An app build with React Native & Tailwind Css for fast user friendly Experience
+                        This project is a responsive e-commerce website inspired by Nike build with Tailwind and React.js
                         </p>
                     </div>
                 </div>
@@ -64,16 +64,16 @@ useGSAP (() => {
                 <div className="project-list-wrapper overflow-hidden" >
                     <div className="project" ref={project2Ref} >
                         <div className='image-wrapper bg-[#ffefdb]'>
-                            <img src='/images/project2.png' alt='Project 2' />
+                            <img src='/images/P2.png' alt='Project 2' />
                         </div>
-                        <h2>Library Management Platform</h2>
+                        <h2>Visually stunning animated website</h2>
                     </div>
 
                     <div className="project" ref={project3Ref} >
                         <div className='image-wrapper bg-[#ffe7eb]'>
-                            <img src='/images/project3.png' alt='Project 3' />
+                            <img src='/images/P3.png' alt='Project 3' />
                         </div>
-                        <h2>YC Directory</h2>
+                        <h2> Responsive Website with Modern UI/UX</h2>
                     </div>
 
                 </div>
