@@ -1,5 +1,7 @@
 {
   "buildCommand": "npm ci && npm run build",
+  "name": "portfolio"
+  "private": true,
   "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
